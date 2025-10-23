@@ -2202,7 +2202,8 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 30
+              "ioValue": 60,
+              "currentEquation": "60"
             }
           ]
         },
@@ -2236,15 +2237,18 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 30,
+              "currentEquation": "30"
             },
             {
               "name": "zDist",
-              "ioValue": 26
+              "ioValue": 28,
+              "currentEquation": "28"
             }
           ]
         },
@@ -2364,7 +2368,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rotate-extrude-circle-22.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-90-0-0-0-0-26",
+                "geometry": "move-rotate-extrude-circle-22.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-90-0-0-0-30-28",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -2394,13 +2398,14 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.17307692307692307,
-          "y": 0.7148936170212766,
+          "x": 0.16939890710382513,
+          "y": 0.7121848739495799,
           "uniqueID": "a5a99522-f7cd-43f9-8f80-9a93f6a146f9",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "yDist",
@@ -2408,15 +2413,16 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.145979020979021,
-          "y": 0.5085106382978724,
+          "x": 0.14025500910746813,
+          "y": 0.523109243697479,
           "uniqueID": "82cce83d-bd40-4639-8b3e-d03820a702f0",
           "ioValues": [
             {
@@ -2515,7 +2521,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 4
+              "ioValue": -5,
+              "currentEquation": "-5"
             },
             {
               "name": "zDist",
