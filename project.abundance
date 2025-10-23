@@ -906,8 +906,8 @@
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.4213286713286713,
-          "y": 0.4,
+          "x": 0.4599271402550091,
+          "y": 0.4054621848739496,
           "uniqueID": "0b83d54b-70a2-4947-b71b-059b6c5cea6c",
           "ioValues": []
         },
@@ -1005,7 +1005,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "cut-cut-move-extrude-circle-202.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-30-move-loft-move-circle-197.5-0-0-0-move-circle-202.5-0-0-0-0-0-10-move-extrude-circle-197.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-0-25",
+                    "geometry": "cut-cut-move-extrude-circle-202.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0-0-30-move-loft-move-circle-197.5-0-0-0-move-circle-202.5-0-0-0-0-0-10-move-extrude-circle-197.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30-0-0-25",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -1131,11 +1131,13 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 200
+              "ioValue": 210,
+              "currentEquation": "210"
             },
             {
               "name": "y length",
-              "ioValue": 200
+              "ioValue": 210,
+              "currentEquation": "210"
             }
           ]
         },
@@ -1225,7 +1227,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-200-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-100-100-0",
+                "geometry": "move-extrude-rectangle-210-210-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-100-100-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -1252,7 +1254,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-200-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-100--100-0",
+                "geometry": "move-extrude-rectangle-210-210-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-100--100-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -1279,7 +1281,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-200-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100--100--100-0",
+                "geometry": "move-extrude-rectangle-210-210-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100--100--100-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -1316,21 +1318,22 @@
         {
           "atomType": "Extrude",
           "name": "Extrude",
-          "x": 0.17220279720279721,
-          "y": 0.12127659574468086,
+          "x": 0.17122040072859745,
+          "y": 0.14915966386554622,
           "uniqueID": "21007110-f7fc-4a55-a243-c5f6d4022d9e",
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 15,
+              "currentEquation": "15"
             }
           ]
         },
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.30506993006993005,
-          "y": 0.09148936170212767,
+          "x": 0.331511839708561,
+          "y": 0.12605042016806722,
           "uniqueID": "dcd827d3-3da1-4368-9ea7-df5de23aa54b",
           "ioValues": [
             {
@@ -1351,14 +1354,14 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.3606334841628959,
-          "y": 0.175,
+          "x": 0.4462659380692168,
+          "y": 0.17857142857142858,
           "uniqueID": "c253caf9-c54a-4062-a813-1cdd03d442de",
           "ioValues": [
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-circle-202.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-30",
+                "geometry": "move-extrude-circle-202.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0-0-30",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -1482,8 +1485,8 @@
         {
           "atomType": "Color",
           "name": "Color",
-          "x": 0.2438811188811189,
-          "y": 0.11702127659574468,
+          "x": 0.2686703096539162,
+          "y": 0.1512605042016807,
           "uniqueID": "6bc8a3ea-ec80-4477-912d-a59e2514c796",
           "ioValues": [],
           "selectedColorIndex": 13
