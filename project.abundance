@@ -2261,7 +2261,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 35
+              "ioValue": 35,
+              "currentEquation": "35"
             }
           ]
         },
@@ -2400,8 +2401,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.16939890710382513,
-          "y": 0.7121848739495799,
+          "x": 0.16666666666666666,
+          "y": 0.7184873949579832,
           "uniqueID": "a5a99522-f7cd-43f9-8f80-9a93f6a146f9",
           "ioValues": [
             {
@@ -2433,7 +2434,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -2441,74 +2443,6 @@
               "currentEquation": "60"
             }
           ]
-        },
-        {
-          "atomType": "Loft",
-          "name": "Loft",
-          "x": 0.27534965034965037,
-          "y": 0.6148936170212765,
-          "uniqueID": "2c289c2b-7b0f-464a-b1ed-b6b7447f0091",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": {
-                "geometry": "move-circle-17.5-0-0-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    60
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": {
-                "geometry": "move-circle-20-0-0-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
-            }
-          ],
-          "closedSelection": 0
         },
         {
           "atomType": "Move",
@@ -2558,8 +2492,8 @@
         {
           "atomType": "Difference",
           "name": "Difference",
-          "x": 0.5340909090909091,
-          "y": 0.3425531914893617,
+          "x": 0.6958105646630237,
+          "y": 0.3949579831932773,
           "uniqueID": "9332f290-8e7f-4894-b445-28e3cf25dcef",
           "ioValues": []
         },
@@ -2677,6 +2611,74 @@
               }
             }
           ]
+        },
+        {
+          "atomType": "Loft",
+          "name": "Loft",
+          "x": 0.2668488160291439,
+          "y": 0.546218487394958,
+          "uniqueID": "75db8480-5174-454a-8c42-b65e58f00d08",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "move-circle-17.5-0-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    60
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "move-circle-20-0-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ],
+          "closedSelection": 0
         }
       ],
       "allConnectors": [
@@ -2744,19 +2746,13 @@
           "ap1Name": "geometry",
           "ap2Name": "Shape 2",
           "ap1ID": "a5a99522-f7cd-43f9-8f80-9a93f6a146f9",
-          "ap2ID": "2c289c2b-7b0f-464a-b1ed-b6b7447f0091"
+          "ap2ID": "75db8480-5174-454a-8c42-b65e58f00d08"
         },
         {
           "ap1Name": "geometry",
           "ap2Name": "Shape 1",
           "ap1ID": "82cce83d-bd40-4639-8b3e-d03820a702f0",
-          "ap2ID": "2c289c2b-7b0f-464a-b1ed-b6b7447f0091"
-        },
-        {
-          "ap1Name": "geometry",
-          "ap2Name": "geometry",
-          "ap1ID": "2c289c2b-7b0f-464a-b1ed-b6b7447f0091",
-          "ap2ID": "1134cb59-fbf3-4b7a-8794-726690306cb6"
+          "ap2ID": "75db8480-5174-454a-8c42-b65e58f00d08"
         },
         {
           "ap1Name": "geometry",
@@ -2799,6 +2795,12 @@
           "ap2Name": "geometry2",
           "ap1ID": "d346bce8-775a-45e0-aaea-21f7c911ff2b",
           "ap2ID": "9332f290-8e7f-4894-b445-28e3cf25dcef"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "75db8480-5174-454a-8c42-b65e58f00d08",
+          "ap2ID": "1134cb59-fbf3-4b7a-8794-726690306cb6"
         }
       ],
       "fileTypeVersion": 1,
