@@ -202,7 +202,7 @@
         {
           "name": "Shape 8",
           "ioValue": {
-            "geometry": "move-rotate-cut-cut-fuse-move-extrude-rectangle-145-45-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-35-0--10-0-move-rotate-extrude-circle-22.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-90-0-0-0-30-28-cut-move-rotate-loft-move-circle-17.5-0-0-0-move-circle-20-0-0-0-90-0-0-0-20-30-move-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0--40-5-move-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0--40-5-0-0-48--168-150-2",
+            "geometry": "move-rotate-cut-cut-fuse-move-extrude-rectangle-145-45-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-35-0--10-0-move-rotate-extrude-circle-22.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-90-0-0-0-30-28-cut-move-rotate-loft-move-circle-17.5-0-0-0-move-circle-20-0-0-0-90-0-0-0-23-30-move-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0--40-5-move-extrude-circle-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-0--40-5-0-0-48--168-150-2",
             "tags": [],
             "bom": [],
             "plane": {
@@ -2138,8 +2138,8 @@
     {
       "atomType": "Molecule",
       "name": "VacuumPort",
-      "x": 0.3286713286713287,
-      "y": 0.9042553191489361,
+      "x": 0.37918552036199094,
+      "y": 0.90625,
       "uniqueID": "a646375c-ec5d-43b1-9d8a-40c89045fb8c",
       "ioValues": [],
       "topLevel": false,
@@ -2229,8 +2229,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 35,
-              "currentEquation": "35"
+              "ioValue": 35
             }
           ]
         },
@@ -2396,13 +2395,11 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
-              "ioValue": 50,
-              "currentEquation": "50"
+              "ioValue": 50
             }
           ]
         },
@@ -2415,13 +2412,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "yDist",
-              "ioValue": 23,
-              "currentEquation": "23"
+              "ioValue": 23
             },
             {
               "name": "zDist",
